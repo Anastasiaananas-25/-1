@@ -12,5 +12,4 @@ with open(name, 'r') as file:
             n = int(i)
             if 1 <= n <= 10:
                 ssum += n
-# Выводим результат
 print("Сумма чисел от 1 до 10 в файле:", ssum)
